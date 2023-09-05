@@ -25,13 +25,16 @@ footer {
     display: inline-block;
     text-align: center;
     position: relative;
-    padding-top: 100px;
+    padding-top: 90px;
     top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .me {
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 50px;
+    line-height: 1.5;
+    letter-spacing: 3px;
 }
