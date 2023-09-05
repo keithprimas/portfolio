@@ -57,7 +57,7 @@
         <style>
             .carousel-item {
                 height: 20rem;
-                background: #777;
+                background: #000;
                 color: white;
                 position: relative;
             }
@@ -66,10 +66,20 @@
                 bottom: 0;
                 left: 50px;
                 right: 0;
-                padding-bottom: 50px;
+                padding-bottom: 15px;
             }
             .carousel-indicators {
                 display: none;
+            }
+            .overlay-image {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                top: 0;
+                background-position: center;
+                background-size: cover;
+                opacity: 0.6;
             }
         </style>
 
@@ -83,25 +93,28 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
+                        <div class="overlay-image"
+                            style="background-image: url(./assets/project1.png);">
+                        </div>
                         <div class="container">
-                            <h1>Project 1</h1>
-                            <p>Explanation of project</p>
+                            <h1 class="project">Project 1</h1>
+                            <p class="project-descr">Explanation of project</p>
                             <a href="#" class="btn btn-lg btn-primary">Project 1</a>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="container">
-                            <h1>Project 2</h1>
-                            <p>Explanation of project</p>
+                            <h1 class="project">Project 2</h1>
+                            <p class="project-descr">Explanation of project</p>
                             <a href="#" class="btn btn-lg btn-primary">Project 1</a>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="container">
-                            <h1>Project 3</h1>
-                            <p>Explanation of project</p>
+                            <h1 class="project">Project 3</h1>
+                            <p class="project-descr">Explanation of project</p>
                             <a href="#" class="btn btn-lg btn-primary">Project 1</a>
                         </div>
                     </div>
