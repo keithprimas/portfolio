@@ -6,10 +6,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    background-color: #c8e1cc;
+    background-color: #dbac98;
     display: flex;
+    color: white;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.navbar-nav a {
+    color: white;
 }
 
 main {
@@ -22,22 +27,26 @@ footer {
 }
 
 .name {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     position: relative;
-    padding-top: 90px;
+    align-items: center;
     margin-top: 20px;
-    top: 50px;
+    top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .me {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+    font-weight: light;
+    font-size: 90px;
     line-height: 1.5;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 .project {
@@ -46,3 +55,33 @@ footer {
     font-weight: bold;
 }
 
+.selfie-image {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .me {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 70px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: light;
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .name {
+        position: relative;
+        top: 125px;
+    }
+    .name img {
+        position: relative;
+        margin-top: 60px;
+    }
+}
