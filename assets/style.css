@@ -32,8 +32,7 @@ footer {
     text-align: center;
     position: relative;
     align-items: center;
-    margin-top: 20px;
-    top: 225px;
+    margin-top: 70px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -43,10 +42,8 @@ footer {
     flex-direction: column;
     position: relative;
     font-family: 'Roboto', sans-serif;
-    font-weight: light;
-    font-size: 80px;
     line-height: 1.5;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 
 .project {
@@ -57,8 +54,8 @@ footer {
 
 .selfie-image {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%; 
     object-fit: cover; 
 }
