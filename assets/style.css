@@ -33,7 +33,7 @@ footer {
     position: relative;
     align-items: center;
     margin-top: 20px;
-    top: 200px;
+    top: 225px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -44,7 +44,7 @@ footer {
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: light;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 1.5;
     letter-spacing: 5px;
 }
@@ -83,5 +83,16 @@ footer {
     .name img {
         position: relative;
         margin-top: 60px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .me {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .name {
+        position: relative;
+        top: 130px;
     }
 }
