@@ -6,8 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    background-color: #dbac98;
-    display: flex;
+    background: linear-gradient(to right, #74d3ff, #ff5050);
     color: white;
     flex-direction: column;
     min-height: 100vh;
@@ -23,7 +22,7 @@ main {
 
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .name {
