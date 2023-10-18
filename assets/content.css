@@ -34,6 +34,12 @@ main {
     text-align: center;
 }
 
+.contact p {
+    font-size: 25px;
+}
+
+
+
 p {
     line-height: 2;
     letter-spacing: 2px;
