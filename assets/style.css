@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    background: linear-gradient(to right, #ffa274, #de5a17);
+    background: linear-gradient(to right, rgb(113, 196, 223), #09c3e3);
     color: white;
     flex-direction: column;
     min-height: 100vh;
