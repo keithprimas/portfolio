@@ -47,10 +47,20 @@ footer {
     font-weight: lighter;
 }
 
+#myCarousel {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid #ffffff; 
+    box-shadow: 3px 3px 2px 0px rgba(128, 0, 0, 1);
+}
+
 .project {
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 2px;
     font-weight: bold;
+    line-height: 30px;
+    padding-bottom: 10px;
+    letter-spacing: 6px;
 }
 
 .selfie-image {
@@ -100,12 +110,19 @@ footer {
        top: 175px;
        font-size: 25px;
     }
+    .project {
+        font-size: 30px;
+    }
   }
   @media screen and (max-width: 1024px) {
     .name {
        position: relative;
        top: 175px;
        font-size: 50px;
+    }
+    #myCarousel {
+        margin-left: 0%;
+        margin-right: 0%;
     }
   }
   
