@@ -57,12 +57,11 @@ footer {
     text-align: center;
     font-size: 50px;
     line-height: 60px;
-    color: white;
+    color: whitesmoke;
     font-weight: bolder;
     position: relative;
     top: 24px;
-    background-color: #09c3e3;
-    border-radius: 30px 30px 30px 30px;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
 }
 
 .selfie-image {
