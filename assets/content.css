@@ -132,5 +132,11 @@ footer {
 .biography-section .img-fluid {
     margin: 0 auto;
 }
+#phonenumber {
+    font-size: 15px;
+}
+#email {
+    font-size: 15px;
+}
 }
   

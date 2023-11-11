@@ -50,17 +50,19 @@ footer {
 #myCarousel {
     margin-left: 5%;
     margin-right: 5%;
-    border: 2px solid #ffffff; 
-    box-shadow: 3px 3px 2px 0px rgba(128, 0, 0, 1);
+    border-radius: 30px;
 }
 
 .project {
+    text-align: center;
     font-size: 50px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    line-height: 30px;
-    padding-bottom: 10px;
-    letter-spacing: 6px;
+    line-height: 60px;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: 24px;
+    background-color: #09c3e3;
+    border-radius: 30px 30px 0 0;
 }
 
 .selfie-image {
