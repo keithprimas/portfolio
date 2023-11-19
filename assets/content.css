@@ -6,16 +6,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    background: linear-gradient(to right, rgb(113, 196, 223), #09c3e3);
+    color: white;
+    background-image: url('/assets/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: white;
 }
 
 .navbar-nav a {
     color: white;
 }
+
 
 main {
     flex: 1;
@@ -39,7 +42,6 @@ main {
 }
 
 
-
 p {
     line-height: 2;
     letter-spacing: 2px;
@@ -55,6 +57,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: black;
+}
+
 .selfie-image {
     position: relative;
     bottom: 40px;
@@ -66,10 +72,11 @@ a {
     object-fit: cover; 
 }
 
+
 .img-fluid {
     display: flex;
-    width: 180px;
-    height: 180px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%; 
     object-fit: cover; 
 }
@@ -91,14 +98,23 @@ a {
 }
 
 .biography {
-    margin-left: 5%;
-    margin-right: 5%;
+    position: relative;
+    top: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.biography {
+    text-indent: 30px;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
 }
+
 
 .card {
     display: flex;
@@ -113,6 +129,10 @@ footer {
 @media screen and (max-width: 1024px) {
    .contact a {
     font-size: 30px;
+   }
+   .biography {
+    font-size: 15px;
+    width: 90%;
    }
    .contact {
     position: relative;
@@ -131,6 +151,10 @@ footer {
 }
 .biography-section .img-fluid {
     margin: 0 auto;
+}
+.contact p {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #phonenumber {
     font-size: 15px;

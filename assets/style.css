@@ -7,7 +7,9 @@ body {
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     color: white;
-    background-color: #09c3e3;
+    background-image: url('/assets/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -15,6 +17,7 @@ body {
 .navbar-nav a {
     color: white;
 }
+
 
 main {
     flex: 1;
@@ -55,13 +58,13 @@ footer {
 
 .project {
     text-align: center;
+    background-color: white;
     font-size: 50px;
     line-height: 60px;
-    color: whitesmoke;
+    color: lightblue;
     font-weight: bolder;
     position: relative;
     top: 24px;
-    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
 }
 
 .selfie-image {
@@ -123,19 +126,16 @@ footer {
        font-size: 50px;
     }
     #myCarousel {
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .project {
         text-align: center;
         font-size: 20px;
         line-height: 50px;
-        color: white;
         position: relative;
         right: 50px;
-        top: 24px;
-        background-color: #09c3e3;
-        border-radius: 30px 30px 30px 30px;
+        top: 24px;       
     }
     .carousel-item {
         height: 30rem;
