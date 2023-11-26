@@ -156,6 +156,10 @@ footer {
    .contact a {
     font-size: 30px;
    }
+   #icons i {
+    font-size: 50px;
+    letter-spacing: 15px;
+}
    .biography {
     font-size: 15px;
     width: 80%;
