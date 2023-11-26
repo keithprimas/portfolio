@@ -85,6 +85,40 @@ footer {
     object-fit: cover; 
 }
 
+@keyframes slide {
+    from {
+        transform: translateX(0)
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    position: relative;
+    bottom: 20px;
+    overflow: hidden;
+    padding: 35px 0;
+    margin-bottom: 40px;
+    background: white;
+    white-space: nowrap;
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+   
+    animation: 30s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 60px;
+    margin: 0 40px
+}
+
 
 
 @media screen and (max-width: 800px) {
