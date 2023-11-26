@@ -135,6 +135,7 @@ footer {
         position: relative;
         top: 5px;
         margin-top: 50px;
+        margin-bottom: 20px;
     }
     blockquote.quote {
         font-size: 15px;
@@ -153,7 +154,7 @@ footer {
   @media screen and (max-width: 1024px) {
     .name {
        position: relative;
-       top: 120px;
+       top: 140px;
     }
     #myCarousel {
         margin-left: 5%;
