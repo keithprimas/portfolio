@@ -125,7 +125,7 @@ footer {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 50px;
+        top: 60px;
         font-family: 'Roboto', sans-serif;
         font-weight: light;
         font-size: 40px;
@@ -133,7 +133,8 @@ footer {
     }
     .name img {
         position: relative;
-        margin-top: 60px;
+        top: 5px;
+        margin-top: 50px;
     }
     blockquote.quote {
         font-size: 15px;
@@ -152,7 +153,7 @@ footer {
   @media screen and (max-width: 1024px) {
     .name {
        position: relative;
-       top: 100px;
+       top: 120px;
     }
     #myCarousel {
         margin-left: 5%;
