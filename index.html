@@ -139,6 +139,10 @@
             <div class="selfie">
                 <img src="./assets/selfie.jpg" alt="picture of Keith" class="selfie-image">
             </div>
+            <blockquote class="quote" style="position: relative; top: 10px; font-size: 20px;">
+                "For knowledge is limited to all we now know and understand, while imagination embraces the entire world..."
+                <cite>– Albert Einstein</cite>
+            </blockquote>
         </div>
 
         <div class="logos">
@@ -154,24 +158,15 @@
                 <img src="./assets/logos/mysql-logo-svgrepo-com.svg" alt="MySql"/>
                 <img src="./assets/logos/node.svg" alt="Node.js"/>
             </div>
-            <div class="logos-slide">
-                <img src="./assets/logos/bootstrap.svg" alt="Bootstrap"/>
-                <img src="./assets/logos/css3-alt.svg" alt="CSS"/>
-                <img src="./assets/logos/git.svg" alt="Git"/>
-                <img src="./assets/logos/github.svg" alt="GitHub"/>
-                <img src="./assets/logos/html5.svg" alt="HTML5"/>
-                <img src="./assets/logos/icons8-visual-studio-code.svg" alt="VS Code"/>
-                <img src="./assets/logos/js.svg" alt="JavaScript"/>
-                <img src="./assets/logos/MongoDB_logo_PNG1.png" alt="MongoDB"/>
-                <img src="./assets/logos/mysql-logo-svgrepo-com.svg" alt="MySql"/>
-                <img src="./assets/logos/node.svg" alt="Node.js"/>
-            </div>
         </div>
-
     </main>
-
-
     <footer>Made by Keith Primas</footer>
+
+    
+    <script>
+        let copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+    </script>
     <script src="https://kit.fontawesome.com/e530c905e1.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

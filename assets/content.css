@@ -49,6 +49,12 @@ p {
     font-size: 30px;
 }
 
+#challenges p {
+    line-height: 1;
+    letter-spacing: 0;
+    font-size: 18px;
+}
+
 .btn {
     border: none;
     border-radius: 0;;
@@ -107,6 +113,13 @@ a:hover {
     margin-right: 7%;
     line-height: 1.5;
     font-size: 25px;
+}
+
+#icons i {
+    position: relative;
+    top: 20px;
+    font-size: 100px;
+    letter-spacing: 60px;
 }
 
 .card-text {
