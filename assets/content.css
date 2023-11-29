@@ -79,15 +79,18 @@ a:hover {
     margin-bottom: 3px;
     border-radius: 50%; 
     object-fit: cover; 
+    border: 3px solid white;
 }
 
 
 .img-fluid {
     display: flex;
+    flex-direction: row;
     width: 190px;
     height: 190px;
     border-radius: 50%; 
     object-fit: cover; 
+    border: 3px solid white;
 }
 
 .btn:hover .btn-title {
@@ -113,6 +116,7 @@ a:hover {
     margin-right: 7%;
     line-height: 1.5;
     font-size: 25px;
+    text-indent: 30px;
 }
 
 #icons i {
@@ -127,12 +131,9 @@ a:hover {
     overflow-y: auto;
 }
 
-.biography {
-    text-indent: 30px;
-}
 
 .skills .card:hover {
-    background-color: #4ea4ff;
+    background-color: #7cb7f5;
     color: #fff; 
   }
 
@@ -146,7 +147,7 @@ footer {
     padding: 5px 0px;
     bottom: 0;
     left: 50%;
-    text-shadow: 1px 1px 5px black;
+    color: black;
 }
 
 .card {
@@ -158,6 +159,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-bottom: 8%;
+    color: black;
 }
 
 @media screen and (max-width: 1024px) {
@@ -180,23 +182,16 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
    }
-   .selfie-image {
-    position: relative;
-    top: 10px;
-    bottom: 20px;
-    display: flex;
-    width: 175px;
-    height: 175px;
-    border-radius: 50%; 
-    object-fit: cover; 
-    margin-bottom: 40px;
-}
 .biography-section .img-fluid {
     margin: 0 auto;
 }
-
+.img-fluid {
+    width: 150px;
+    height: 150px;
+}
 .contact a {
     font-size: 20px;
+    letter-spacing: 5px;
 }
 }
   
