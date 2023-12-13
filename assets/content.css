@@ -120,11 +120,13 @@ a:hover {
     line-height: 1.5;
     font-size: 25px;
     text-indent: 30px;
+    padding: 15px;
 }
 
 #icons i {
     position: relative;
     top: 20px;
+    left: 25px;
     font-size: 100px;
     letter-spacing: 60px;
 }
