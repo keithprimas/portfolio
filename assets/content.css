@@ -125,8 +125,7 @@ a:hover {
 
 #icons i {
     position: relative;
-    top: 20px;
-    left: 20px;
+    left: 15px;
     font-size: 100px;
     letter-spacing: 60px;
 }
