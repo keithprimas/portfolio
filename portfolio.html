@@ -64,12 +64,14 @@
                 <h1 class="display-1" style="padding-bottom: 15px;"><i class="bi bi-code-slash" style="padding-right: 10px; font-size: 50px;"></i>Portfolio</h1>
             </div>
             
-            <div class="container" style="margin-bottom: 80px;">
+            <div class="container" style="margin-bottom: 50px;">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="card my-1">
                             <img src="./assets/frontendapp.png" class="card-img-top" alt="image of Front-End App">
-                            <a href="https://nemimoser.github.io/Whats-Coding" target="project1"><button class="btn btn-primary btn-lg btn-deployed-app">Click for Deployed App</button></a>
+                            <a href="https://nemimoser.github.io/Whats-Coding" target="project1">
+                                <button class="btn btn-primary btn-lg btn-deployed-app">Click for Deployed App</button>
+                            </a>
                             <div class="card-body">
                                 <h5 class="card-title"><b>What's Front-End Deployment?</b></h5>
                                 <p class="card-text" style="font-size: 20px;">
@@ -77,13 +79,18 @@
                                     The platform employs a unique approach, blending visual examples with clear written descriptions to facilitate an immersive learning experience. 
                                     Users can also test their knowledge of the material by taking quizzes at the end of each course.
                                     Additionally, the project features a progress tracking system, enabling learners to monitor and 
-                                    celebrate their achievements as they navigate the essentials of front-end development in a comprehensive and interactive manner.</p>
+                                    celebrate their achievements as they navigate the essentials of front-end development in a comprehensive and interactive manner.
+                                </p>
                             </div>
                         </div>
-                    </div> 
-                        <div class="col-lg-3 col-md-12 col-sm-12">
-                            <div class="card my-1">
-                                <div class="card-body" id="skillscard">
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="card my-1">
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#rolesTasksDropdown">
+                                My Roles and Tasks <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="rolesTasksDropdown">
+                                <div class="card card-body">
                                     <h5 class="card-title">My roles and tasks:</h5>
                                     <div style="max-height: 200px; height: 200px; overflow-y: auto;">
                                         <ul>
@@ -94,20 +101,30 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card my-1">
-                                <div class="card-body" id="challenges">
+                        </div>
+                        <div class="card my-1">
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#challengesDropdown">
+                                Challenges <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="challengesDropdown">
+                                <div class="card card-body">
                                     <h5 class="card-title">Challenges:</h5>
                                     <div style="max-height: 200px; height: 200px; overflow-y: auto;">
-                                       <p>
-                                        Creating a mobile-friendly and responsive website posed challenges in ensuring that the design adapted seamlessly to various screen sizes. 
-                                        Achieving optimal readability across devices required attention to text size, spacing, and layout. 
-                                        Balancing aesthetics with functionality became crucial to guarantee a positive user experience on both desktop and mobile platforms.
-                                       </p>
+                                        <p>
+                                            Creating a mobile-friendly and responsive website posed challenges in ensuring that the design adapted seamlessly to various screen sizes. 
+                                            Achieving optimal readability across devices required attention to text size, spacing, and layout. 
+                                            Balancing aesthetics with functionality became crucial to guarantee a positive user experience on both desktop and mobile platforms.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card my-1">
-                                <div class="card-body" id="technologies">
+                        </div>
+                        <div class="card my-1">
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#technologiesDropdown">
+                                Technologies used <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="technologiesDropdown">
+                                <div class="card card-body">
                                     <h5 class="card-title">Technologies used:</h5>
                                     <div style="max-height: 200px; height: 200px; overflow-y: auto;">
                                         <ul>
@@ -124,14 +141,18 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
+            
             <div class="container" style="margin-bottom: 80px;">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="card my-2">
                             <img src="./assets/project2.png" class="card-img-top" alt="image of Bizi fullstack app">
-                            <a href="https://obscure-peak-64800-68ab39cc8564.herokuapp.com/" target="project2"><button class="btn btn-primary btn-lg btn-deployed-app">Click for Deployed App</button></a>
+                            <a href="https://obscure-peak-64800-68ab39cc8564.herokuapp.com/" target="project2">
+                                <button class="btn btn-primary btn-lg btn-deployed-app">Click for Deployed App</button>
+                            </a>
                             <div class="card-body">
                                 <h5 class="card-title"><b>Bizi- A Fullstack Business Card Builder</b></h5>
                                 <p class="card-text" style="font-size: 20px;">"Bizi" is a fullstack application where users can create professional business cards through a seamless signup and login experience. 
@@ -142,83 +163,154 @@
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12">
                         <div class="card my-1">
-                            <div class="card-body" id="skillscard">
-                                <h5 class="card-title">My roles and tasks:</h5>
-                                <div style="max-height: 200px; height: 200px; overflow-y: auto;">
-                                    <ul>
-                                        <li>Project concept</li>
-                                        <li>CSS for login page and homepage</li>
-                                        <li>Signup and Login routes</li>
-                                        <li>Backend server javascript</li>
-                                        <li>Deployment to Heroku</li>
-                                    </ul>
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#rolesTasksDropdown">
+                                My Roles and Tasks <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="rolesTasksDropdown">
+                                <div class="card card-body">
+                                    <h5 class="card-title">My roles and tasks:</h5>
+                                    <div style="max-height: 200px; height: 200px; overflow-y: auto;">
+                                        <ul>
+                                            <li>Project concept</li>
+                                            <li>CSS for login page and homepage</li>
+                                            <li>Signup and Login routes</li>
+                                            <li>Backend server javascript</li>
+                                            <li>Deployment to Heroku</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card my-1">
-                            <div class="card-body" id="challenges">
-                                <h5 class="card-title">Challenges:</h5>
-                                <div style="max-height: 200px; height: 200px; overflow-y: auto;">
-                                    <ul>
-                                      <p>
-                                        We encountered difficulties in establishing backend routes for our project, struggling at first to ensure proper connectivity and functionality. 
-                                        Integrating the login page with the MySQL database presented challenges as we worked to establish a working connection. 
-                                        Additionally, deploying our app on Heroku proved to be a complex task, demanding careful configuration and troubleshooting to ensure a successful deployment.
-                                      </p>
-                                    </ul>
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#challengesDropdown">
+                                Challenges <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="challengesDropdown">
+                                <div class="card card-body">
+                                    <h5 class="card-title">Challenges:</h5>
+                                    <div style="max-height: 200px; height: 200px; overflow-y: auto;">
+                                        <p>
+                                            We encountered difficulties in establishing backend routes for our project, struggling at first to ensure proper connectivity and functionality. 
+                                            Integrating the login page with the MySQL database presented challenges as we worked to establish a working connection. 
+                                            Additionally, deploying our app on Heroku proved to be a complex task, demanding careful configuration and troubleshooting to ensure a successful deployment.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card my-1">
-                            <div class="card-body" id="technologies">
-                                <h5 class="card-title">Technologies used:</h5>
-                                <div style="max-height: 200px; height: 200px; overflow-y: auto;">
-                                    <ul>
-                                        <li>Node.js</li>
-                                        <li>Express.js</li>
-                                        <li>MySql</li>
-                                        <li>Handlebars.js</li>
-                                        <li>Sequelize ORM</li>
-                                        <li>Heroku</li>
-                                        <li>Bootstrap</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>GitHub</li>
-                                        <li>VS Code</li>
-                                    </ul>
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#technologiesDropdown">
+                                Technologies used <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="technologiesDropdown">
+                                <div class="card card-body">
+                                    <h5 class="card-title">Technologies used:</h5>
+                                    <div style="max-height: 200px; height: 200px; overflow-y: auto;">
+                                        <ul>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>MySql</li>
+                                            <li>Handlebars.js</li>
+                                            <li>Sequelize ORM</li>
+                                            <li>Heroku</li>
+                                            <li>Bootstrap</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>GitHub</li>
+                                            <li>VS Code</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="container" style="margin-bottom: 80px;">
-                <div class="row">
+            
+            <div class="container" style="margin-bottom: 80px;">
+                <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="card my-3">
-                            <a href=""><img src="" class="card-img-top" alt=""></a>
+                            <a href="https://cache-cabinet.onrender.com/">
+                                <img src="./assets/cache.png" class="card-img-top" alt="image of CacheCabinet app">
+                                <button class="btn btn-primary btn-lg btn-deployed-app">Click for Deployed App</button>
+                            </a>
                             <div class="card-body">
-                                <h5 class="card-title"><b>An Interactive Front-End Application</b></h5>
-                                <p class="card-text" style="font-size: 20px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title"><b>CacheCabinet- A MERN Stack Organizer Application</b></h5>
+                                <p class="card-text" style="font-size: 20px;">
+                                    CacheCabinet is a platform designed to enhance organization and productivity.
+                                    Leveraging MongoDB, Express.js, React.js, and Node.js, users can create individual accounts with secure logins.
+                                    Once logged in, users gain the ability to create, edit, save, and delete personalized collections of items tailored to their needs.
+                                    This application not only empowers users to efficiently manage their lives but also showcases the versatility and effectiveness of
+                                    the MERN stack in developing creative, user-friendly applications.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12">
-                            <div class="card my-1">
-                                <div class="card-body" id="skillscard">
+                        <div class="card my-1 text-center">
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#rolesTasksDropdown3">
+                                My Roles and Tasks <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="rolesTasksDropdown3">
+                                <div class="card card-body">
                                     <h5 class="card-title">My roles and tasks:</h5>
                                     <div style="max-height: 200px; height: 200px; overflow-y: auto;">
                                         <ul>
-                                            <li>HTML5</li>
-                                            <li>CSS</li>
-                                            <li>JavaScript</li>
+                                            <li>Client and Server directories</li>
+                                            <li>Design</li>
+                                            <li>Login and Register Authentication</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="card my-1 text-center">
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#challengesDropdown3">
+                                Challenges <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="challengesDropdown3">
+                                <div class="card card-body">
+                                    <h5 class="card-title">Challenges:</h5>
+                                    <div style="max-height: 200px; height: 200px; overflow-y: auto;">
+                                        <p>
+                                            Establishing a connection from the client side to the MongoDB database presented challenges,
+                                            given the asynchronous nature of JavaScript, necessitating precise handling of promises and callbacks.
+                                            The integration of GraphQL mutations and queries introduced additional complexity, requiring thorough schema design and
+                                            meticulous implementation of resolvers to facilitate smooth communication between the client and server, ensuring effective data flow and updates.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card my-1 text-center">
+                            <button class="btn" data-bs-toggle="collapse" data-bs-target="#technologiesDropdown3">
+                                Technologies used <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="technologiesDropdown3">
+                                <div class="card card-body">
+                                    <h5 class="card-title">Technologies used:</h5>
+                                    <div style="max-height: 200px; height: 200px; overflow-y: auto;">
+                                        <ul>
+                                            <li>React</li>
+                                            <li>GraphQL</li>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>MongoDB</li>
+                                            <li>Render</li>
+                                            <li>JWT</li>
+                                            <li>Bulma CSS</li>
+                                            <li>Imgur</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> -->
+            </div>
+            
+            
             <div class="header">
                 <h1 class="display-3">Personal Projects</h1>
             </div>

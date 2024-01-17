@@ -51,10 +51,10 @@ p {
     font-size: 30px;
 }
 
-#challenges p {
-    line-height: 1;
+.card-body p {
+    line-height: 1.5;
     letter-spacing: 0;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .btn {
@@ -130,7 +130,7 @@ a:hover {
 }
 
 .card-text {
-    max-height: 300px;
+    max-height: 200px;
     overflow-y: auto;
 }
 
