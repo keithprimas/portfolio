@@ -189,6 +189,10 @@ footer {
 .biography-section .img-fluid {
     margin: 0 auto;
 }
+.selfie-image {
+    width: 150px;
+    height: 150px;
+}
 .img-fluid {
     width: 150px;
     height: 150px;
