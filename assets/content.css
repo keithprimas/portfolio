@@ -84,13 +84,6 @@ a:hover {
     border: 3px solid white;
 }
 
-#bizi-image {
-    max-height: 230px;
-}
-
-#cache-image {
-    height: 230px;
-}
 
 .img-fluid {
     display: flex;
