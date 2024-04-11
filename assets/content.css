@@ -204,8 +204,8 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
-    div.col-lg-3.col-md-4.col-sm-6 {
-        max-width: 200px;
+    div.col-lg-3.col-md-4.col-sm-6.mb-1 {
+       
     }
 }
 
