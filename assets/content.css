@@ -28,6 +28,11 @@ main {
     margin-bottom: 15px;
 }
 
+.container-sm {
+    max-width: 900px;
+    max-height: auto;
+}
+
 .header {
     text-align: center;
 }
@@ -46,16 +51,11 @@ main {
 }
 
 
-p {
-    line-height: 2;
-    font-size: 30px;
-}
-
-.card-body p {
-    line-height: 1.5;
-    letter-spacing: 0;
+div.card-body.info {
+    max-height: 210px;
     font-size: 15px;
 }
+
 
 .btn {
     border: none;
@@ -76,8 +76,8 @@ a:hover {
     position: relative;
     bottom: 40px;
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 175px;
+    height: 175px;
     margin-bottom: 3px;
     border-radius: 50%; 
     object-fit: cover; 
@@ -95,8 +95,8 @@ a:hover {
     border: 3px solid white;
 }
 
-.btn:hover .btn-title {
-    display: block;
+div.col-md-6.social:hover {
+    color: black;
 }
 
 .btn-title {
@@ -201,5 +201,25 @@ footer {
     font-size: 20px;
     letter-spacing: 5px;
 }
+}
+
+@media screen and (max-width: 550px) {
+    div.col-lg-3.col-md-4.col-sm-6 {
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 1100px ){
+    .contact {
+        position: relative;
+        top: 200px;
+    }
+    div.contact a, h3{
+        font-size: 50px;
+    }
+    .selfie-image {
+        width: 200px;
+        height: 200px;
+    }
 }
   
