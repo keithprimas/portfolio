@@ -66,10 +66,9 @@ div.card-body.info {
     border-radius: 0;;
 }
 
-button.btn.btn-primary, button.btn.btn-dark {
+button.btn.btn-primary, button.btn.btn-secondary {
     border-radius: .375rem;
 }
-
 
 a {
     text-decoration: none;
@@ -213,7 +212,7 @@ footer {
     div.container-sm {
        padding: 40px;
     }
-    button.btn.btn-primary, button.btn.btn-dark {
+    button.btn.btn-primary, button.btn.btn-secondary {
         width: 90px;
         height: 90px;
         position: relative;
@@ -241,13 +240,6 @@ footer {
     div.container-sm {
         max-width: 600px;
         max-height: auto;
-    }
-    button.btn.btn-primary, button.btn.btn-dark {
-        width: 200px;
-        height: 100px;
-        position: relative;
-        left: 15%;
-        margin-top: 20px;
     }
 }
   
