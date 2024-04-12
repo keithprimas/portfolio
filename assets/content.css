@@ -6,10 +6,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    color: white;
-    background-image: url('./bg1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -19,17 +17,22 @@ body {
 }
 
 .navbar-nav a {
-    color: white;
+    color: black;
 }
-
+a.nav-link {
+    font-size: 20px;
+}
+a.nav-link:hover {
+    color: rgb(0, 255, 123);
+}
 
 main {
     flex: 1;
     margin-bottom: 15px;
 }
 
-.container-sm {
-    max-width: 900px;
+div.container-sm {
+    max-width: 800px;
     max-height: auto;
 }
 
@@ -54,6 +57,7 @@ main {
 div.card-body.info {
     max-height: 210px;
     font-size: 15px;
+    border: none;
 }
 
 
@@ -62,26 +66,29 @@ div.card-body.info {
     border-radius: 0;;
 }
 
+button.btn.btn-primary, button.btn.btn-dark {
+    border-radius: .375rem;
+}
+
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover {
-    color: black;
+    color: rgb(39, 159, 246);
 }
 
 .selfie-image {
     position: relative;
     bottom: 40px;
     display: flex;
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 3px;
     border-radius: 50%; 
     object-fit: cover; 
-    border: 3px solid white;
 }
 
 
@@ -92,7 +99,6 @@ a:hover {
     height: 190px;
     border-radius: 50%; 
     object-fit: cover; 
-    border: 3px solid white;
 }
 
 div.col-md-6.social:hover {
@@ -103,7 +109,7 @@ div.col-md-6.social:hover {
     display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    color: black;
     padding: 5px;
     border-radius: 5px;
     top: 135px;
@@ -136,7 +142,7 @@ div.col-md-6.social:hover {
 
 
 .skills .card:hover {
-    background-color: #7cb7f5;
+    background-color: rgb(39, 159, 246);
     color: #fff; 
   }
 
@@ -204,12 +210,23 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
-    div.col-lg-3.col-md-4.col-sm-6.mb-1 {
-       
+    div.container-sm {
+       padding: 40px;
+    }
+    button.btn.btn-primary, button.btn.btn-dark {
+        width: 90px;
+        height: 90px;
+        position: relative;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    div.col.text-center {
+        position: relative;
+        right: 15px;
     }
 }
 
-@media screen and (min-width: 800px) and (min-height: 1100px ){
+@media screen and (min-width: 700px) and (min-height: 1000px ){
     .contact {
         position: relative;
         top: 200px;
@@ -220,6 +237,17 @@ footer {
     .selfie-image {
         width: 200px;
         height: 200px;
+    }
+    div.container-sm {
+        max-width: 600px;
+        max-height: auto;
+    }
+    button.btn.btn-primary, button.btn.btn-dark {
+        width: 200px;
+        height: 100px;
+        position: relative;
+        left: 15%;
+        margin-top: 20px;
     }
 }
   
