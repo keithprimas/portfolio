@@ -58,7 +58,7 @@ footer {
 .me {
     display: flex;
     position: relative;
-    top: 40px;
+    top: 60px;
     font-size: 60px;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
