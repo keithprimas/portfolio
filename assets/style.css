@@ -7,7 +7,7 @@ body {
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     color: black;
-    background-color: white;
+    background-color: rgb(255, 249, 249);
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
@@ -78,10 +78,10 @@ footer {
 .project {
     text-align: center;
     font-size: 40px;
-    letter-spacing: 2px;
-    line-height: 60px;
+    line-height: 50px;
     color: black;
-    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
+    font-weight: bold;
     position: relative;
     top: 24px;
 }
@@ -119,7 +119,7 @@ blockquote.quote {
     overflow: hidden;
     padding: 35px 0;
     margin-bottom: 40px;
-    background: white;
+    background: rgb(255, 249, 249);
     white-space: nowrap;
 }
 
@@ -145,11 +145,10 @@ blockquote.quote {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 60px;
+        top: 30px;
         font-family: 'Roboto', sans-serif;
-        font-weight: light;
-        font-size: 40px;
-        letter-spacing: 5px;
+        font-size: 30px;
+        letter-spacing: 2px;
     }
     .name img {
         position: relative;
