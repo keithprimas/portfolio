@@ -58,7 +58,7 @@ footer {
 .me {
     display: flex;
     position: relative;
-    top: 60px;
+    top: 20px;
     font-size: 60px;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
@@ -140,7 +140,7 @@ blockquote.quote {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .me {
         display: flex;
         flex-direction: column;
