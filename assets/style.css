@@ -59,7 +59,7 @@ footer {
     display: flex;
     position: relative;
     top: 20px;
-    font-size: 60px;
+    font-size: 50px;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
@@ -140,7 +140,7 @@ blockquote.quote {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .me {
         display: flex;
         flex-direction: column;
@@ -181,7 +181,7 @@ blockquote.quote {
     }
     .project {
         text-align: center;
-        font-size: 25px;
+        font-size: 30px;
         line-height: 30px;
         position: relative;
         right: 50px;
@@ -191,6 +191,6 @@ blockquote.quote {
         height: 30rem;
     }
   }
-  
+
 
 
