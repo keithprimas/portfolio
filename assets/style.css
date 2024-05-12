@@ -78,9 +78,10 @@ footer {
 .project {
     text-align: center;
     font-size: 40px;
+    width: 60%;
     line-height: 50px;
     color: black;
-    text-shadow: 1px 1px 1px white;
+    background-color: rgb(255, 249, 249);
     font-weight: bold;
     position: relative;
     top: 24px;
@@ -161,6 +162,9 @@ blockquote.quote {
         margin-left: 2%;
         margin-right: 2%;
     }
+    .project {
+        font-size: 15px;
+    }
 }
 
 @media screen and (orientation: landscape) {
@@ -181,7 +185,6 @@ blockquote.quote {
     }
     .project {
         text-align: center;
-        font-size: 30px;
         line-height: 30px;
         position: relative;
         right: 50px;
