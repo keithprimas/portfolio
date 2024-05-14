@@ -70,6 +70,12 @@ button.btn.btn-primary, button.btn.btn-secondary {
     border-radius: .375rem;
 }
 
+.btn-secondary {
+    --bs-btn-bg: #FFA500;
+    --bs-btn-hover-bg: #dd8f00;
+    --bs-btn-hover-border-color: #dd8f00;
+}
+
 
 a {
     text-decoration: none;
