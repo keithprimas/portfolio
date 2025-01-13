@@ -182,6 +182,11 @@ footer {
     color: black;
 }
 
+#scouter-img {
+    width: 100%;
+    height: 435px;
+    object-fit: cover;
+}
 
 @media screen and (max-width: 1024px) {
    .contact a {
